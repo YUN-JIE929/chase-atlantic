@@ -2809,7 +2809,7 @@ textarea.form-control-lg {
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
-  border-color: var(--bs-btn-hover-border-color);
+  border-color: var(--bs-btn-hover-borderlor-co);
 }
 .btn-check + .btn:hover {
   color: var(--bs-btn-color);
@@ -10867,8 +10867,12 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-content {
-  z-index: 1;
+  z-index:5;
   position: relative;
+    background-image: url("https://i.pinimg.com/736x/51/31/b6/5131b6389bbda0e5074befbf2e2b9ca2.jpg");
+    background-size: cover;
+    opacity: 0.5;
+    background-position: center;
 }
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
