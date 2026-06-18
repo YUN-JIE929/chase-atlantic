@@ -10860,19 +10860,16 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
+    background-image: url("https://s1.ticketm.net/dam/a/a1b/b15b5669-92f3-4b09-98e6-0fb3a349ea1b_RETINA_PORTRAIT_3_2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 85%;
 }
 header.masthead .masthead-content {
   z-index:5;
   position: relative;
-    background-image: url("https://i.pinimg.com/736x/51/31/b6/5131b6389bbda0e5074befbf2e2b9ca2.jpg");
-    background-size: cover;
-    opacity: 0.5;
-    background-position: center;
 }
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
@@ -10880,37 +10877,6 @@ header.masthead .masthead-content .masthead-heading {
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
-}
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
@@ -10920,6 +10886,6 @@ header.masthead .bg-circle-4 {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2.8rem;
   }
 }
